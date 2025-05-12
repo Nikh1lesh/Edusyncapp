@@ -18,7 +18,7 @@ const DetailedInsCourse = () => {
 
     const fetchMyCourseFiles = async () => {
         try {
-            const response = await axios.get("https://localhost:7116/api/Courses/mycourses", {
+            const response = await axios.get("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses/mycourses", {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
             });
 
@@ -78,7 +78,7 @@ const DetailedInsCourse = () => {
         formData.append("Description", newDescription);
 
         try {
-            await axios.post("https://localhost:7116/api/Courses", formData, {
+            await axios.post("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses", formData, {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
             });
 
@@ -102,7 +102,7 @@ const DetailedInsCourse = () => {
         formData.append("ExistingMediaUrl", mediaUrl);
 
         try {
-            await axios.put("https://localhost:7116/api/Courses/replace", formData, {
+            await axios.put("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses/replace", formData, {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
             });
             alert("File replaced successfully.");
@@ -116,7 +116,7 @@ const DetailedInsCourse = () => {
 
     const handleDescriptionEdit = async (mediaUrl, updatedDescription) => {
         try {
-            await axios.put("https://localhost:7116/api/Courses/update-description", {
+            await axios.put("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses/update-description", {
                 mediaUrl,
                 description: updatedDescription
             }, {
@@ -133,7 +133,7 @@ const DetailedInsCourse = () => {
 
     const handleDeleteFile = async (mediaUrl) => {
         try {
-            await axios.delete("https://localhost:7116/api/Courses/delete-file", {
+            await axios.delete("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses/delete-file", {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
                 data: { mediaUrl }
             });
@@ -148,7 +148,7 @@ const DetailedInsCourse = () => {
     const handleDeleteCourse = async () => {
         if (!window.confirm("Are you sure you want to delete the entire course?")) return;
         try {
-            await axios.delete(`https://localhost:7116/api/Courses/delete-course-by-title/${encodeURIComponent(courseMeta.title)}`, {
+            await axios.delete(`ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses/delete-course-by-title/${encodeURIComponent(courseMeta.title)}`, {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
             });
             alert("Course deleted successfully.");

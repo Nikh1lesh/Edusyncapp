@@ -1,0 +1,48 @@
+# === Global Ignore ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# === Node (React frontend) ===
+/edusyncclient/node_modules/
+/edusyncclient/build/
+/edusyncclient/.env
+/edusyncclient/.next/
+/edusyncclient/.cache/
+/edusyncclient/yarn.lock
+
+# === Visual Studio & ASP.NET Core backend ===
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+/backend/bin/
+/backend/obj/
+
+## Rider
+.idea/
+
+## Visual Studio
+.vs/
+
+## ASP.NET Secrets
+secrets.json
+
+# === OS generated ===
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

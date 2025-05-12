@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "THxZabEaYXI=",
+  "dgSpecHash": "WL6tezXWx+M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\Nikki\\Source\\Repos\\Edusyncapp\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikki\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Nikki\\.nuget\\packages\\azure.core.amqp\\1.3.1\\azure.core.amqp.1.3.1.nupkg.sha512",

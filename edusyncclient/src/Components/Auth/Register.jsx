@@ -12,7 +12,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    const url = "https://localhost:7116/api/Auth/register";
+    const url = "ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Auth/register";
 
     try {
       await axios.post(url, {

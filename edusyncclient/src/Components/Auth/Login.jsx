@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     // 🌐 REAL API LOGIN WITHOUT ROLE INPUT
     try {
-      const response = await axios.post("https://localhost:7116/api/Auth/login", {
+      const response = await axios.post("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Auth/login", {
         email,
         password,
       });

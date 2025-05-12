@@ -32,7 +32,7 @@ const AttemptQuiz = () => {
   useEffect(() => {
     const fetchInstructorEmail = async () => {
       try {
-        const response = await axios.get("https://localhost:7116/api/Courses/allcourses", {
+        const response = await axios.get("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/Courses/allcourses", {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
         });
         const courseMatch = response.data.find(c => c.title.toLowerCase() === decodeURIComponent(id).toLowerCase());
@@ -85,7 +85,7 @@ const AttemptQuiz = () => {
     };
 
     try {
-      await axios.post("https://localhost:7116/api/assessments/submit", payload, {
+      await axios.post("ecommerce111-geh4gcb0bbaadbg2.canadacentral-01.azurewebsites.net/api/assessments/submit", payload, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
       });
 
