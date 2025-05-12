@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\desktop\\new folder\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\source\\repos\\edusyncapp\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\source\\repos\\edusyncapp\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\desktop\\new folder\\backend\\backend\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\source\\repos\\edusyncapp\\backend\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\desktop\\new folder\\backend\\backend\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\source\\repos\\edusyncapp\\backend\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|solutionrelative:services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\desktop\\new folder\\backend\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\source\\repos\\edusyncapp\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\desktop\\new folder\\backend\\backend\\dtos\\replacemediafiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|c:\\users\\nikki\\source\\repos\\edusyncapp\\backend\\dtos\\replacemediafiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3012ECD0-EF1D-4B65-9869-953AA6BC951A}|backend.csproj|solutionrelative:dtos\\replacemediafiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,67 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T15:09:15.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAYwGkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwFcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T14:47:26.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CoursesController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Controllers\\CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
-              "ToolTip": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "Controllers\\CoursesController.cs",
               "ViewState": "AgIAANgAAAAAAAAAAAAQwPIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T09:36:03.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T09:36:03.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ReplaceMediaFileDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Dtos\\ReplaceMediaFileDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Dtos\\ReplaceMediaFileDto.cs",
               "RelativeDocumentMoniker": "Dtos\\ReplaceMediaFileDto.cs",
-              "ToolTip": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Dtos\\ReplaceMediaFileDto.cs",
+              "ToolTip": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Dtos\\ReplaceMediaFileDto.cs",
               "RelativeToolTip": "Dtos\\ReplaceMediaFileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T09:35:20.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlobStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Services\\BlobStorageService.cs",
-              "RelativeDocumentMoniker": "Services\\BlobStorageService.cs",
-              "ToolTip": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\Services\\BlobStorageService.cs",
-              "RelativeToolTip": "Services\\BlobStorageService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T08:51:33.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T09:35:20.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BlobStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Services\\BlobStorageService.cs",
+              "RelativeDocumentMoniker": "Services\\BlobStorageService.cs",
+              "ToolTip": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\Services\\BlobStorageService.cs",
+              "RelativeToolTip": "Services\\BlobStorageService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:51:33.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Nikki\\Desktop\\New folder\\backend\\backend\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Nikki\\source\\repos\\Edusyncapp\\backend\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-07T08:43:09.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T08:43:09.514Z"
             }
           ]
         }
