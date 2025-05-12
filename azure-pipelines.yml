@@ -21,14 +21,14 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-    projects: '/backend.csproj'
+    projects: 'backend/backend.csproj'
   displayName: 'Restore Backend Dependencies'
 
 # Build Backend Project
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '/backend.csproj'
+    projects: 'backend/backend.csproj'
     arguments: '--configuration $(buildConfiguration) --no-restore'
   displayName: 'Build Backend Project'
 
@@ -37,7 +37,7 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: false
-    projects: '/backend.csproj'
+    projects: 'backend/backend.csproj'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory) --no-restore'
     zipAfterPublish: true
   displayName: 'Publish Backend Project'
